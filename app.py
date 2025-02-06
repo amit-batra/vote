@@ -39,6 +39,7 @@ def hello():
         vote=vote,
         version=version,
     ))
+    ptiny('Hello, World!')
     resp.set_cookie('voter_id', voter_id)
     return resp
 
